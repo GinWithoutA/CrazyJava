@@ -4,56 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9a9749-bfaa-489d-a8b6-34ec4cae64c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class01/Code01_SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class01/Code02_BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class01/Code03_InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class01/Code04_BSExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class01/Code06_BSNearLeft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class01/Code07_BSNearAwesome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class01/Code07_EvenTimesOddTimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class01/Code08_KM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class01/Code09_HashMapAndTreeMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class02/Code01_ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class02/Code02_DeleteGivenValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class02/Code03_DoubleEndsQueueToStackAndQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class02/Code04_RingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class02/Code05_GetMinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class02/Code06_StackToQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class02/Code07_QueueToStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class02/Code08_GetMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class03/Code01_MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class03/Code02_SmallSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class03/Code03_ReversePair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class03/Code04_BiggerThanRightTwice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class03/Code05_CountOfRangeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class03/Code06_QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class03/Code07_QuickSortUnrecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class04/Code01_Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class04/Code02_HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class04/Code03_SortArrayDistanceLessK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class04/Code04_CoverMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class04/Code05_HeapGreater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class04/Code06_EveryStepShowBoss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/future/Code01_CompletableFutureMallDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/future/Code02_CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code02_ProducerAndConsumerJUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code03_RunWithOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code04_EightLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code05_ListUnsafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Coed01_ProducerAndConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/redis/test.java" afterDir="false" />
+    <list default="true" id="fa9a9749-bfaa-489d-a8b6-34ec4cae64c5" name="Changes" comment="Crazy Java First Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class05/Code02_CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class05/Code03_RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code01_LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code02_Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code03_InsertOneByOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code04_PartitionLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code05_CopyLinkedListWithRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code06_LinkedListCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code07_IntersectionOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code01_StackTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code02_SerializeAndReconstructTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code03_EncodeNaryTreeToBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code04_MaxLevelCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code05_SuccessorNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code06_PrintAllFolds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code06_PrintOneByOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class05/Code01_TrieTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class05/Code01_TrieTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code02_ProducerAndConsumerJUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code02_ProducerAndConsumerJUC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Coed01_ProducerAndConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Coed01_ProducerAndConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +36,13 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
@@ -105,6 +83,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -114,13 +93,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Code05_ListUnsafe">
-    <configuration name="Code02_ProducerAndConsumerJUC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.juc.lock.Code02_ProducerAndConsumerJUC" />
+  <component name="RunManager" selected="Application.Code06_PrintAllFolds">
+    <configuration name="Code02_Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class06.Code02_Palindrome" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.juc.lock.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.class06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code03_RunWithOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.juc.lock.Code03_RunWithOrder" />
+    <configuration name="Code03_InsertOneByOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class06.Code03_InsertOneByOne" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.juc.lock.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.class06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code04_EightLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.juc.lock.Code04_EightLock" />
+    <configuration name="Code06_LinkedListCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class06.Code06_LinkedListCircle" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.juc.lock.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.class06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code05_ListUnsafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.juc.lock.Code05_ListUnsafe" />
+    <configuration name="Code06_PrintAllFolds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class07.Code06_PrintAllFolds" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.juc.lock.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.class07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coed01_ProducerAndConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.juc.lock.Coed01_ProducerAndConsumer" />
+    <configuration name="Code07_IntersectionOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class06.Code07_IntersectionOfLinkedList" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.juc.lock.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.class06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code05_ListUnsafe" />
-        <item itemvalue="Application.Code04_EightLock" />
-        <item itemvalue="Application.Code02_ProducerAndConsumerJUC" />
-        <item itemvalue="Application.Code03_RunWithOrder" />
-        <item itemvalue="Application.Coed01_ProducerAndConsumer" />
+        <item itemvalue="Application.Code06_PrintAllFolds" />
+        <item itemvalue="Application.Code07_IntersectionOfLinkedList" />
+        <item itemvalue="Application.Code06_LinkedListCircle" />
+        <item itemvalue="Application.Code03_InsertOneByOne" />
+        <item itemvalue="Application.Code02_Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -214,11 +193,63 @@
       <workItem from="1692768533747" duration="6315000" />
       <workItem from="1692775126169" duration="14639000" />
       <workItem from="1692844862085" duration="1883000" />
-      <workItem from="1692849055675" duration="5659000" />
+      <workItem from="1692849055675" duration="15167000" />
+      <workItem from="1692877978862" duration="4532000" />
+      <workItem from="1692925768407" duration="11355000" />
+      <workItem from="1693013058548" duration="25000" />
+      <workItem from="1693035011957" duration="9421000" />
+      <workItem from="1693144677711" duration="10944000" />
+      <workItem from="1693200080037" duration="10402000" />
+      <workItem from="1693226649481" duration="482000" />
+      <workItem from="1693310674102" duration="8481000" />
     </task>
+    <task id="LOCAL-00001" summary="Crazy Java First Commit">
+      <option name="closed" value="true" />
+      <created>1692864861962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692864861962</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Crazy Java First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crazy Java First Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="cur" />
+        <watch expression="cur" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

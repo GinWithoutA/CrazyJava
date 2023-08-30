@@ -83,5 +83,7 @@ class ProductJUC {
         } finally {
             lock.unlock();
         }
+        ReentrantLock reentrantLock = new ReentrantLock();
+        reentrantLock.lock();
     }
 }

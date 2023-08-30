@@ -1,5 +1,7 @@
 package com.ginwithouta.juc.lock;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * @Package : com.ginwithouta.juc.lock
  * @Author : NONO Wang
@@ -63,5 +65,7 @@ class Product {
         }
         System.out.println(Thread.currentThread().getName() + "消费，当前剩余数量：" + (--number));
         this.notifyAll();
+        ReentrantLock lockk = new ReentrantLock();
+        lockk.lock();
     }
 }
