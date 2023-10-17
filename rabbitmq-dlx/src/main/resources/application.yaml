@@ -1,0 +1,12 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: dlx-exchange
+  rabbitmq:
+    host: 192.168.250.78
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: powernode

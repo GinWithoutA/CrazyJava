@@ -1,0 +1,17 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: delay1-exchange
+  rabbitmq:
+    host: 192.168.250.78
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: powernode
+
+custom:
+  exchangeName: exchange.delay.1
+  queueNormalName: queue.delay.normal.1
+  queueDlxName: queue.delay.dlx.1

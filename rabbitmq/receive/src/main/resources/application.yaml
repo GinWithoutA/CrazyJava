@@ -1,0 +1,15 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: receive-dlx
+  rabbitmq:
+    host: 192.168.250.78
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: powernode
+    listener:
+      simple:
+        acknowledge-mode: manual

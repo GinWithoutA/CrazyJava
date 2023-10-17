@@ -8,6 +8,7 @@
     <artifactId>algorithm</artifactId>
     <version>1.0-SNAPSHOT</version>
 <!--    <packaging>pom</packaging>-->
+    <!--    <packaging>pom</packaging>-->
 
 <!--    <parent>-->
 <!--        <groupId>org.springframework.boot</groupId>-->

@@ -4,7 +4,30 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-fanout/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-receive/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-direct/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-topic/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-headers/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-dlx/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/receive/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/delay1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/delay2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/confirm1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/return2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/return3/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/return4/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/reliability/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/distributed-lock-2/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/distributed-redLock/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/rabbitmq/return4/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">

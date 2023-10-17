@@ -1,0 +1,16 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: return3-exchange
+  rabbitmq:
+    host: 192.168.250.78
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: powernode
+
+custom:
+  exchangeName: exchange.return.3
+  queueName: queue.return.3

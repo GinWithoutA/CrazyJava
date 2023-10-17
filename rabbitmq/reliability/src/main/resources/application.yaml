@@ -1,0 +1,17 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: reliability-exchange
+  rabbitmq:
+    host: 192.168.250.78
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: powernode
+    publisher-confirm-type: correlated  # 开启生产者的关联确认模式
+
+custom:
+  exchangeName: exchange.reliability.1
+  queueName: queue.reliability.1

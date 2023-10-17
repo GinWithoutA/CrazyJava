@@ -1,6 +1,7 @@
 package com.ginwithouta.juc.future;
 
-import lombok.Getter;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
 import java.util.Arrays;
 import java.util.List;
@@ -24,14 +25,32 @@ public class Code01_CompletableFutureMallDemo {
             new NetMall("dnagdang"),
             new NetMall("amazon")
     );
+
+    /**
+     * 一家一家搜
+     * @param list
+     * @param productName
+     * @return
+     */
     public static List<String> getPrice(List<NetMall> list, String productName) {
         return list.stream()
-                .map(netMall -> String.format(productName + " in %s's price is %.2f", netMall.getNetMallName(), netMall.caculatePrice(productName)))
+                .map(netMall -> String.format(productName + " in %s's price is %.2f", netMall.getNetMallName(), netMall.calculatePrice(productName)))
                 .collect(Collectors.toList());
     }
+
+    /**
+     * 利用CompletableFuture类进行查找
+     * @param list
+     * @param productName
+     * @return
+     */
     public static List<String> getPriceByCompletableFuture(List<NetMall> list, String productName) {
-        return list.stream().map(netMall -> CompletableFuture.supplyAsync(() -> String.format(productName + " in %s's price is %.2f", netMall.getNetMallName(), netMall.caculatePrice(productName))))
-                .toList().stream().map(CompletableFuture::join).collect(Collectors.toList());
+        return list.stream()
+                .map(netMall -> CompletableFuture.supplyAsync(() -> String.format(productName + " in %s's price is %.2f", netMall.getNetMallName(), netMall.calculatePrice(productName))))
+                .toList()
+                .stream()
+                .map(CompletableFuture::join)
+                .collect(Collectors.toList());
     }
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
@@ -51,18 +70,12 @@ public class Code01_CompletableFutureMallDemo {
 
     }
 }
-@Getter
+@Data
+@AllArgsConstructor
 class NetMall {
     private String netMallName;
-    public NetMall(String netMallName) {
-        this.netMallName = netMallName;
-    }
-    public double caculatePrice(String productName) {
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+    public double calculatePrice(String productName) {
+        try { TimeUnit.SECONDS.sleep(1); } catch (InterruptedException e) { e.printStackTrace(); }
         return ThreadLocalRandom.current().nextDouble() * 2 + productName.charAt(0);
     }
 }

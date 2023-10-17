@@ -1,0 +1,17 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: confirm1-exchange
+  rabbitmq:
+    host: 192.168.250.78
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: powernode
+    publisher-confirm-type: correlated  # 开启生产者的关联确认模式
+
+custom:
+  exchangeName: exchange.confirm.1
+  queueName: queue.confirm.1

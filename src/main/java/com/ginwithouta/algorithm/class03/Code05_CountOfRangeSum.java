@@ -24,9 +24,7 @@ public class Code05_CountOfRangeSum {
         for (int i = 1; i < arr.length; i++) {
             sum[i] = arr[i] + sum[i - 1];
         }
-        System.out.println(Arrays.toString(sum));
         int ans = count(sum, 0, sum.length - 1, lower, upper);
-        System.out.println(Arrays.toString(sum));
         return ans;
     }
     public static int count(long[] sum, int left, int right, int lower, int upper) {

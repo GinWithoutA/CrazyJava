@@ -1,0 +1,18 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: dlx3-exchange
+  rabbitmq:
+    host: 192.168.250.78
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: powernode
+
+custom:
+  exchangeNormalName: exchange.normal
+  queueNormalName: queue.normal
+  exchangeDlxName: exchange.dlx
+  queueDlxName: queue.dlx

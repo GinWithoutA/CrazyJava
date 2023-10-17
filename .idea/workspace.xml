@@ -1,30 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9a9749-bfaa-489d-a8b6-34ec4cae64c5" name="Changes" comment="Crazy Java First Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class05/Code02_CountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class05/Code03_RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code01_LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code02_Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code03_InsertOneByOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code04_PartitionLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code05_CopyLinkedListWithRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code06_LinkedListCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class06/Code07_IntersectionOfLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code01_StackTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code02_SerializeAndReconstructTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code03_EncodeNaryTreeToBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code04_MaxLevelCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code05_SuccessorNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class07/Code06_PrintAllFolds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code06_PrintOneByOne.java" afterDir="false" />
+    <list default="true" id="fa9a9749-bfaa-489d-a8b6-34ec4cae64c5" name="Changes" comment="Crazy Java Second Commit">
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct/src/main/java/com/ginwithouta/direct/DirectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct/src/main/java/com/ginwithouta/direct/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct/src/main/java/com/ginwithouta/direct/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct/src/main/java/com/ginwithouta/direct/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-direct/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dlx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dlx/src/main/java/com/ginwithouta/direct/DlxApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dlx/src/main/java/com/ginwithouta/direct/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dlx/src/main/java/com/ginwithouta/direct/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dlx/src/main/java/com/ginwithouta/direct/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-dlx/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-fanout/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-fanout/src/main/java/com/ginwithouta/rabbitmq/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-fanout/src/main/java/com/ginwithouta/rabbitmq/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-fanout/src/main/java/com/ginwithouta/rabbitmq/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-fanout/src/main/java/com/ginwithouta/rabbitmq/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-fanout/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-headers/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-headers/src/main/java/com/ginwithouta/headers/HeadersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-headers/src/main/java/com/ginwithouta/headers/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-headers/src/main/java/com/ginwithouta/headers/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-headers/src/main/java/com/ginwithouta/headers/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-headers/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-receive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-receive/src/main/java/com/ginwithouta/ReceiveApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-receive/src/main/java/com/ginwithouta/message/ReceiveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-receive/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-topic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-topic/src/main/java/com/ginwithouta/topic/TopicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-topic/src/main/java/com/ginwithouta/topic/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-topic/src/main/java/com/ginwithouta/topic/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-topic/src/main/java/com/ginwithouta/topic/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-topic/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/confirm1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/confirm1/src/main/java/com/ginwithouta/rabbit/Delay2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/confirm1/src/main/java/com/ginwithouta/rabbit/config/MyConfirmCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/confirm1/src/main/java/com/ginwithouta/rabbit/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/confirm1/src/main/java/com/ginwithouta/rabbit/message/ReceiveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/confirm1/src/main/java/com/ginwithouta/rabbit/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/confirm1/src/main/java/com/ginwithouta/rabbit/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/confirm1/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay1/src/main/java/com/ginwithouta/rabbit/Dlx3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay1/src/main/java/com/ginwithouta/rabbit/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay1/src/main/java/com/ginwithouta/rabbit/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay1/src/main/java/com/ginwithouta/rabbit/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay1/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay2/src/main/java/com/ginwithouta/rabbit/Delay2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay2/src/main/java/com/ginwithouta/rabbit/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay2/src/main/java/com/ginwithouta/rabbit/message/ReceiveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay2/src/main/java/com/ginwithouta/rabbit/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay2/src/main/java/com/ginwithouta/rabbit/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/delay2/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/dlx3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/dlx3/src/main/java/com/ginwithouta/rabbit/Dlx3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/dlx3/src/main/java/com/ginwithouta/rabbit/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/dlx3/src/main/java/com/ginwithouta/rabbit/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/dlx3/src/main/java/com/ginwithouta/rabbit/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/dlx3/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/receive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/receive/src/main/java/com/ginwithouta/rabbit/ReceiveApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/receive/src/main/java/com/ginwithouta/rabbit/message/ReceiveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/receive/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/reliability/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/reliability/src/main/java/com/ginwithouta/rabbit/ReliablityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/reliability/src/main/java/com/ginwithouta/rabbit/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/reliability/src/main/java/com/ginwithouta/rabbit/message/ReceiveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/reliability/src/main/java/com/ginwithouta/rabbit/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/reliability/src/main/java/com/ginwithouta/rabbit/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/reliability/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return1/src/main/java/com/ginwithouta/rabbit/Return1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return1/src/main/java/com/ginwithouta/rabbit/config/MyReturnCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return1/src/main/java/com/ginwithouta/rabbit/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return1/src/main/java/com/ginwithouta/rabbit/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return1/src/main/java/com/ginwithouta/rabbit/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return1/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return2/src/main/java/com/ginwithouta/rabbit/Return2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return2/src/main/java/com/ginwithouta/rabbit/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return2/src/main/java/com/ginwithouta/rabbit/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return2/src/main/java/com/ginwithouta/rabbit/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return2/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return3/src/main/java/com/ginwithouta/rabbit/Return3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return3/src/main/java/com/ginwithouta/rabbit/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return3/src/main/java/com/ginwithouta/rabbit/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return3/src/main/java/com/ginwithouta/rabbit/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/return3/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-1/src/main/java/com/ginwithouta/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-1/src/main/java/com/ginwithouta/redis/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-1/src/main/java/com/ginwithouta/redis/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-1/src/main/java/com/ginwithouta/redis/service/InventoryServcie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-1/src/main/java/com/ginwithouta/redis/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-1/src/main/java/com/ginwithouta/redis/service/impl/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-1/src/main/java/com/ginwithouta/redis/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-1/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-2/src/main/java/com/ginwithouta/redis/DistributedLockVersionOne8888Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-2/src/main/java/com/ginwithouta/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-2/src/main/java/com/ginwithouta/redis/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-2/src/main/java/com/ginwithouta/redis/lock/LockFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-2/src/main/java/com/ginwithouta/redis/lock/RedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-2/src/main/java/com/ginwithouta/redis/service/InventoryServcie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-2/src/main/java/com/ginwithouta/redis/service/impl/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-lock-2/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-redLock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-redLock/src/main/java/com/ginwithouta/redis/DistributedLockVersionOne8888Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-redLock/src/main/java/com/ginwithouta/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-redLock/src/main/java/com/ginwithouta/redis/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-redLock/src/main/java/com/ginwithouta/redis/lock/LockFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-redLock/src/main/java/com/ginwithouta/redis/lock/RedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-redLock/src/main/java/com/ginwithouta/redis/service/InventoryServcie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-redLock/src/main/java/com/ginwithouta/redis/service/impl/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/distributed-redLock/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/jhs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/jhs/src/main/java/com/ginwithouta/redis/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/jhs/src/main/java/com/ginwithouta/redis/service/JHSTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class08/Code01_IsCBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class08/Code02_IsBalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class08/Code03_IsBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class08/Code04_MaxDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class08/Code05_IsFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class08/Code06_MaxSubBSTSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class08/Code07_MaxSubBSTRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class08/Code08_LowestAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class08/Code09_MaxHappy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class09/Code01_UnionSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class09/Code02_FriendCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class09/Code03_Island.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class09/Code03_IslandTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Code01_BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Code02_DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Code03_TopologySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Code04_TopoplogicalOrderDFS1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Code05_TopologicalOrderDFS2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Code06_Kruscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Code07_Prim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Code08_Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/GraphGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class10/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class11/Code01_Hanoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class11/Code02_PrintAllSubSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class11/Code03_PrintAllPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class11/Code04_ReverseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class12/Code01_RobotWalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class12/Code02_CardsInLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class13/Code01_Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class13/Code02_ConvertToLetterString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class13/Code03_StickersToSpellWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class13/Code04_LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class14/Code01_LongestPalindromicSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class14/Code02_HorseJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class14/Code03_Coffe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class15/Code01_MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class15/Code02_CoinsWayEveryPaperDifferent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class15/Code03_CoinsWayNoLimits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class15/Code04_CoinsWaysNoLimitsSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class15/Code05_BobDie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class16/Code01_KillMonster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class16/Code02_MinCoinsNoLimits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class16/Code03_SpiltNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class17/Code01_SpiltSumClosed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class17/Code02_SpiltSumLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class17/Code03_NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class18/Code01_SlidingWindowMaxArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class18/Code02_AllLessSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class18/Code03_GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class18/Code04_MinCoinsNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class19/Code01_MonotonousStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class19/Code02_AllTimesMinToMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class19/Code03_LargestRectangleHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class19/Code04_MaximalRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class19/Code05_CountSubMatrixWithAllOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class20/Code01_SumOfSubarrayMinimums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class20/Code02_FibonacciProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class20/Code03_Cows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class20/Code04_ZeroLeftOneStringNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class21/Code01_KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class21/Code02_IsCircleString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class21/Code03_IsContainSubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class22/Code01_Manacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class22/Code02_AddMinimumCharToReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class23/Code01_FindMinKth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class24/Code01_MorrisTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class24/Code02_IsBSTWithMorris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class24/Code03_MinHeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class25/Code01_SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class25/Code02_FallingSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class26/Code01_IndexTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class26/Code02_IndexTree2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class26/Code03_ACAutomation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class27/Code01_AVLTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class28/Code02_SkipListMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class29/Code01_AppleMinBags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class29/Code02_EatGrass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class29/Code03_MSumToN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class29/Code04_MoneyProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0001_TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0002_AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0003LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0004_MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0007_ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0008_StringToIntegerAtoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0010_RegularExpressionMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0011_ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0012_IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0013_RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0014_LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0015_ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0017_LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0019_RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0020_ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0021_MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0022_GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0023_MergeKSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0026_RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0029_DivideTwoIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0029_FindTheIndexOfTheFirstOccurrenceInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0033_SearchInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0034_FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0035_ValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0037_SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0039_CountAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0041_FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0042_TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0044_WildcardMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0045_JumpGameII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0046_Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0047_PermutationsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0048_RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0048_RotatePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0049_GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0050_PowXN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0054_SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0055_JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0121_BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0122_BestTimeToBuyAndSellStockII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0123_BestTimeToBuyAndSellStockIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0188_BestTimeToBuyAndSellStockIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0687_LongestUnivaluePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_1306_JumpGameIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_309_BestTimeToBuyAndSellStockWithCooldown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_9999_AddDevideNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/other/Code01_problem_55.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/other/Code02_problem_1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/other/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class03/Code05_CountOfRangeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class03/Code05_CountOfRangeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class05/Code01_TrieTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class05/Code01_TrieTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code02_ProducerAndConsumerJUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Code02_ProducerAndConsumerJUC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Coed01_ProducerAndConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/lock/Coed01_ProducerAndConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/future/Code01_CompletableFutureMallDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/future/Code01_CompletableFutureMallDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/future/Code02_CompletableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ginwithouta/juc/future/Code02_CompletableFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ginwithouta/redis/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +281,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,34 +320,63 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Code/JAVA/Job/algorithm&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;632be17ef35afc0bf485b28e92490f05&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
+      &quot;redshift&quot;,
       &quot;redis&quot;
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Code06_PrintAllFolds">
-    <configuration name="Code02_Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class06.Code02_Palindrome" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\JAVA\Job\algorithm\redis" />
+      <recent name="D:\Code\JAVA\Job\algorithm\rabbitmq" />
+      <recent name="D:\Code\JAVA\Job\algorithm\rabbitmq\return2" />
+      <recent name="D:\Code\JAVA\Job\algorithm\rabbitmq\return1\src\main\resources" />
+      <recent name="D:\Code\JAVA\Job\algorithm\rabbitmq\return1\src\main\java\com\ginwithouta\rabbit" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ginwithouta.algorithm.leetCode" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Problem_0054_SpiralMatrix">
+    <configuration name="Problem_0039_CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.leetCode.Problem_0039_CountAndSay" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.algorithm.class06.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code03_InsertOneByOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class06.Code03_InsertOneByOne" />
+    <configuration name="Problem_0041_FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.leetCode.Problem_0041_FirstMissingPositive" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.algorithm.class06.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code06_LinkedListCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class06.Code06_LinkedListCircle" />
+    <configuration name="Problem_0044_WildcardMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.leetCode.Problem_0044_WildcardMatching" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.algorithm.class06.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +410,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code06_PrintAllFolds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class07.Code06_PrintAllFolds" />
+    <configuration name="Problem_0048_RotatePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.leetCode.Problem_0048_RotatePrint" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.algorithm.class07.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.leetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,26 +423,145 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code07_IntersectionOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.class06.Code07_IntersectionOfLinkedList" />
+    <configuration name="Problem_0054_SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ginwithouta.algorithm.leetCode.Problem_0054_SpiralMatrix" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ginwithouta.algorithm.class06.*" />
+          <option name="PATTERN" value="com.ginwithouta.algorithm.leetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rabbitmq-fanout" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbitmq.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Delay2Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="delay2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.Delay2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Delay2Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="confirm1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.Delay2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rabbitmq-direct" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.direct.DirectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dlx3Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="delay1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.Dlx3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dlx3Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dlx3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.Dlx3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DlxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rabbitmq-dlx" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.direct.DlxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeadersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rabbitmq-headers" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.headers.HeadersApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceiveApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rabbitmq-receive (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.ReceiveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceiveApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="receive" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.ReceiveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceiveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rabbitmq-receive" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.ReceiveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReliablityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="reliability" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.ReliablityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Return1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="return1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.Return1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Return2Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="return2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.Return2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Return2Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="return2 (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.Return2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Return3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="return3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.rabbit.Return3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rabbitmq-topic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ginwithouta.topic.TopicApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code06_PrintAllFolds" />
-        <item itemvalue="Application.Code07_IntersectionOfLinkedList" />
-        <item itemvalue="Application.Code06_LinkedListCircle" />
-        <item itemvalue="Application.Code03_InsertOneByOne" />
-        <item itemvalue="Application.Code02_Palindrome" />
+        <item itemvalue="Application.Problem_0054_SpiralMatrix" />
+        <item itemvalue="Application.Problem_0048_RotatePrint" />
+        <item itemvalue="Application.Problem_0044_WildcardMatching" />
+        <item itemvalue="Application.Problem_0041_FirstMissingPositive" />
+        <item itemvalue="Application.Problem_0039_CountAndSay" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +598,54 @@
       <workItem from="1693200080037" duration="10402000" />
       <workItem from="1693226649481" duration="482000" />
       <workItem from="1693310674102" duration="8481000" />
+      <workItem from="1693359112903" duration="8349000" />
+      <workItem from="1693371501247" duration="74000" />
+      <workItem from="1693443770237" duration="6800000" />
+      <workItem from="1694224316532" duration="17717000" />
+      <workItem from="1694308034013" duration="13930000" />
+      <workItem from="1694393132637" duration="8094000" />
+      <workItem from="1694416356259" duration="11318000" />
+      <workItem from="1694480333162" duration="10829000" />
+      <workItem from="1694495744867" duration="1820000" />
+      <workItem from="1694500813122" duration="11578000" />
+      <workItem from="1694567952367" duration="9867000" />
+      <workItem from="1694581993383" duration="1891000" />
+      <workItem from="1694592005750" duration="3964000" />
+      <workItem from="1694654057174" duration="12713000" />
+      <workItem from="1694739889313" duration="11745000" />
+      <workItem from="1694844151726" duration="9297000" />
+      <workItem from="1694912918033" duration="23042000" />
+      <workItem from="1694999476117" duration="12598000" />
+      <workItem from="1695016368559" duration="14252000" />
+      <workItem from="1695089231091" duration="7762000" />
+      <workItem from="1695173336287" duration="4073000" />
+      <workItem from="1695258940526" duration="11864000" />
+      <workItem from="1695299186707" duration="8526000" />
+      <workItem from="1695342560069" duration="24951000" />
+      <workItem from="1695432546967" duration="9282000" />
+      <workItem from="1695530882806" duration="8768000" />
+      <workItem from="1695607883440" duration="12330000" />
+      <workItem from="1695867515652" duration="430000" />
+      <workItem from="1695867957249" duration="19000" />
+      <workItem from="1695901195529" duration="11889000" />
+      <workItem from="1696039194976" duration="4374000" />
+      <workItem from="1696729681592" duration="28397000" />
+      <workItem from="1696853477720" duration="4945000" />
+      <workItem from="1696901766069" duration="14431000" />
+      <workItem from="1696942576811" duration="92000" />
+      <workItem from="1696943072936" duration="2289000" />
+      <workItem from="1696988522845" duration="9160000" />
+      <workItem from="1696999998590" duration="2596000" />
+      <workItem from="1697006110535" duration="21000" />
+      <workItem from="1697075529530" duration="33639000" />
+      <workItem from="1697195161837" duration="3121000" />
+      <workItem from="1697284901909" duration="809000" />
+      <workItem from="1697334998392" duration="12928000" />
+      <workItem from="1697420717968" duration="139000" />
+      <workItem from="1697420904464" duration="20192000" />
+      <workItem from="1697457443713" duration="31000" />
+      <workItem from="1697464070991" duration="799000" />
+      <workItem from="1697505640971" duration="1653000" />
     </task>
     <task id="LOCAL-00001" summary="Crazy Java First Commit">
       <option name="closed" value="true" />
@@ -211,7 +655,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692864861962</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Crazy Java Second Commit">
+      <option name="closed" value="true" />
+      <created>1693359186864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693359186864</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,13 +694,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Crazy Java First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crazy Java First Commit" />
+    <MESSAGE value="Crazy Java Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crazy Java Second Commit" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/class11/Code03_PrintAllPermutations.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0020_ValidParentheses.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ginwithouta/algorithm/leetCode/Problem_0039_CountAndSay.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="cur" />
-        <watch expression="cur" />
+        <watch expression="str.charAt(strIndex)" language="JAVA" />
+        <watch expression="pat.charAt(patIndex)" language="JAVA" />
+        <watch expression="strIndex" />
+        <watch expression="patIndex" />
       </configuration>
     </watches-manager>
   </component>
